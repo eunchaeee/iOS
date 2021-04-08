@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageViewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mcb-El-gDc">
+                                <rect key="frame" x="20" y="60" width="335" height="507"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvC-bU-2Ph">
+                                <rect key="frame" x="247" y="597" width="30" height="30"/>
+                                <state key="normal" title="다음"/>
+                                <connections>
+                                    <action selector="increaseNum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m1Y-ak-5kZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HU-us-YKu">
+                                <rect key="frame" x="97" y="597" width="30" height="30"/>
+                                <state key="normal" title="이전"/>
+                                <connections>
+                                    <action selector="decreaseNum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="91i-wC-cuJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Viewer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kL6-pM-8aT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kvC-bU-2Ph" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-40" id="3DC-af-WPk"/>
+                            <constraint firstItem="Mcb-El-gDc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5Nq-Lk-Qpk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0HU-us-YKu" secondAttribute="bottom" constant="40" id="5oC-ck-1xG"/>
+                            <constraint firstItem="0HU-us-YKu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="JSw-09-fSk"/>
+                            <constraint firstItem="kL6-pM-8aT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WHj-ru-Y1f"/>
+                            <constraint firstItem="Mcb-El-gDc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="XDJ-Qb-WnB"/>
+                            <constraint firstAttribute="bottom" secondItem="Mcb-El-gDc" secondAttribute="bottom" constant="100" id="aBg-6j-GcY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kL6-pM-8aT" secondAttribute="trailing" id="kvj-Q1-b1I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kvC-bU-2Ph" secondAttribute="trailing" constant="98" id="qnd-Wn-2Hh"/>
+                            <constraint firstItem="kL6-pM-8aT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="sC4-ZC-uvA"/>
+                            <constraint firstItem="Mcb-El-gDc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wjC-cM-Drx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnBack" destination="0HU-us-YKu" id="zqf-tA-Lka"/>
+                        <outlet property="btnNext" destination="kvC-bU-2Ph" id="GRd-fZ-MzG"/>
+                        <outlet property="imageViewer" destination="Mcb-El-gDc" id="N1u-zI-W7W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.600000000000001" y="88.605697151424295"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
