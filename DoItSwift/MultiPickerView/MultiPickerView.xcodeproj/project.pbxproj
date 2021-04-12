@@ -13,6 +13,19 @@
 		D9CBD7C02623D0EA0043DA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7BE2623D0EA0043DA8A /* Main.storyboard */; };
 		D9CBD7C22623D0EB0043DA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7C12623D0EB0043DA8A /* Assets.xcassets */; };
 		D9CBD7C52623D0EB0043DA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7C32623D0EB0043DA8A /* LaunchScreen.storyboard */; };
+		D9CBD7D62623DA1D0043DA8A /* Warszawa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7CF2623DA1C0043DA8A /* Warszawa.jpeg */; };
+		D9CBD7D72623DA1D0043DA8A /* Valleta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7D02623DA1C0043DA8A /* Valleta.jpg */; };
+		D9CBD7D82623DA1D0043DA8A /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7D12623DA1C0043DA8A /* Barcelona.jpg */; };
+		D9CBD7D92623DA1D0043DA8A /* Malta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7D22623DA1D0043DA8A /* Malta.jpg */; };
+		D9CBD7DA2623DA1D0043DA8A /* Rome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7D32623DA1D0043DA8A /* Rome.jpg */; };
+		D9CBD7DB2623DA1D0043DA8A /* Positano.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7D42623DA1D0043DA8A /* Positano.jpeg */; };
+		D9CBD7DC2623DA1D0043DA8A /* London.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7D52623DA1D0043DA8A /* London.jpeg */; };
+		D9CBD7E32623DC7E0043DA8A /* AmericanShorthairCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7DE2623DC7E0043DA8A /* AmericanShorthairCat.jpg */; };
+		D9CBD7E42623DC7E0043DA8A /* Retriever.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7DF2623DC7E0043DA8A /* Retriever.jpeg */; };
+		D9CBD7E52623DC7E0043DA8A /* Wawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7E02623DC7E0043DA8A /* Wawa.jpg */; };
+		D9CBD7E62623DC7E0043DA8A /* Collie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7E12623DC7E0043DA8A /* Collie.jpeg */; };
+		D9CBD7E72623DC7E0043DA8A /* Corgi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7E22623DC7E0043DA8A /* Corgi.jpg */; };
+		D9CBD7EA2623DEBD0043DA8A /* RussianBlue.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9CBD7E92623DEBD0043DA8A /* RussianBlue.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		D9CBD7C12623D0EB0043DA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9CBD7C42623D0EB0043DA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9CBD7C62623D0EB0043DA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CBD7CF2623DA1C0043DA8A /* Warszawa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warszawa.jpeg; sourceTree = "<group>"; };
+		D9CBD7D02623DA1C0043DA8A /* Valleta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Valleta.jpg; sourceTree = "<group>"; };
+		D9CBD7D12623DA1C0043DA8A /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barcelona.jpg; sourceTree = "<group>"; };
+		D9CBD7D22623DA1D0043DA8A /* Malta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Malta.jpg; sourceTree = "<group>"; };
+		D9CBD7D32623DA1D0043DA8A /* Rome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rome.jpg; sourceTree = "<group>"; };
+		D9CBD7D42623DA1D0043DA8A /* Positano.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Positano.jpeg; sourceTree = "<group>"; };
+		D9CBD7D52623DA1D0043DA8A /* London.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = London.jpeg; sourceTree = "<group>"; };
+		D9CBD7DE2623DC7E0043DA8A /* AmericanShorthairCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AmericanShorthairCat.jpg; sourceTree = "<group>"; };
+		D9CBD7DF2623DC7E0043DA8A /* Retriever.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Retriever.jpeg; sourceTree = "<group>"; };
+		D9CBD7E02623DC7E0043DA8A /* Wawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wawa.jpg; sourceTree = "<group>"; };
+		D9CBD7E12623DC7E0043DA8A /* Collie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Collie.jpeg; sourceTree = "<group>"; };
+		D9CBD7E22623DC7E0043DA8A /* Corgi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Corgi.jpg; sourceTree = "<group>"; };
+		D9CBD7E92623DEBD0043DA8A /* RussianBlue.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RussianBlue.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,7 @@
 		D9CBD7AC2623D0E90043DA8A = {
 			isa = PBXGroup;
 			children = (
+				D9CBD7CE2623D9D40043DA8A /* Images */,
 				D9CBD7B72623D0EA0043DA8A /* MultiPickerView */,
 				D9CBD7B62623D0EA0043DA8A /* Products */,
 			);
@@ -65,6 +92,26 @@
 				D9CBD7C62623D0EB0043DA8A /* Info.plist */,
 			);
 			path = MultiPickerView;
+			sourceTree = "<group>";
+		};
+		D9CBD7CE2623D9D40043DA8A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D9CBD7D42623DA1D0043DA8A /* Positano.jpeg */,
+				D9CBD7CF2623DA1C0043DA8A /* Warszawa.jpeg */,
+				D9CBD7D52623DA1D0043DA8A /* London.jpeg */,
+				D9CBD7D32623DA1D0043DA8A /* Rome.jpg */,
+				D9CBD7D02623DA1C0043DA8A /* Valleta.jpg */,
+				D9CBD7D22623DA1D0043DA8A /* Malta.jpg */,
+				D9CBD7D12623DA1C0043DA8A /* Barcelona.jpg */,
+				D9CBD7E92623DEBD0043DA8A /* RussianBlue.jpeg */,
+				D9CBD7DE2623DC7E0043DA8A /* AmericanShorthairCat.jpg */,
+				D9CBD7E12623DC7E0043DA8A /* Collie.jpeg */,
+				D9CBD7E22623DC7E0043DA8A /* Corgi.jpg */,
+				D9CBD7DF2623DC7E0043DA8A /* Retriever.jpeg */,
+				D9CBD7E02623DC7E0043DA8A /* Wawa.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +171,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CBD7E72623DC7E0043DA8A /* Corgi.jpg in Resources */,
+				D9CBD7D92623DA1D0043DA8A /* Malta.jpg in Resources */,
+				D9CBD7EA2623DEBD0043DA8A /* RussianBlue.jpeg in Resources */,
+				D9CBD7E32623DC7E0043DA8A /* AmericanShorthairCat.jpg in Resources */,
+				D9CBD7D72623DA1D0043DA8A /* Valleta.jpg in Resources */,
+				D9CBD7DC2623DA1D0043DA8A /* London.jpeg in Resources */,
+				D9CBD7E52623DC7E0043DA8A /* Wawa.jpg in Resources */,
 				D9CBD7C52623D0EB0043DA8A /* LaunchScreen.storyboard in Resources */,
+				D9CBD7DB2623DA1D0043DA8A /* Positano.jpeg in Resources */,
+				D9CBD7D62623DA1D0043DA8A /* Warszawa.jpeg in Resources */,
 				D9CBD7C22623D0EB0043DA8A /* Assets.xcassets in Resources */,
+				D9CBD7E62623DC7E0043DA8A /* Collie.jpeg in Resources */,
+				D9CBD7DA2623DA1D0043DA8A /* Rome.jpg in Resources */,
+				D9CBD7D82623DA1D0043DA8A /* Barcelona.jpg in Resources */,
+				D9CBD7E42623DC7E0043DA8A /* Retriever.jpeg in Resources */,
 				D9CBD7C02623D0EA0043DA8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
