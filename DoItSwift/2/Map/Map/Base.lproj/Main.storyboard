@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="90b-m5-4LD">
-                                <rect key="frame" x="5" y="5" width="368" height="32"/>
+                                <rect key="frame" x="5" y="10" width="368" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="400" id="4gs-8b-iZl"/>
                                 </constraints>
                                 <segments>
                                     <segment title="Current Location"/>
-                                    <segment title="Home"/>
+                                    <segment title="Favorite City"/>
                                     <segment title="Work"/>
                                 </segments>
                                 <connections>
@@ -31,7 +31,7 @@
                                 </connections>
                             </segmentedControl>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="w7g-ij-Kfj">
-                                <rect key="frame" x="10" y="46" width="358" height="541"/>
+                                <rect key="frame" x="10" y="51" width="358" height="536"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7F-r3-P1K">
                                 <rect key="frame" x="18" y="601" width="84" height="21"/>
@@ -55,7 +55,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="90b-m5-4LD" secondAttribute="trailing" constant="5" id="Hr3-Hr-UMc"/>
                             <constraint firstItem="V2J-n8-jBU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="N2h-B6-Grz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w7g-ij-Kfj" secondAttribute="bottom" constant="80" id="Oex-Bl-xOA"/>
-                            <constraint firstItem="90b-m5-4LD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="PbE-rY-56X"/>
+                            <constraint firstItem="90b-m5-4LD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="PbE-rY-56X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w7g-ij-Kfj" secondAttribute="trailing" constant="10" id="UmS-Ih-KyY"/>
                             <constraint firstItem="90b-m5-4LD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="hOr-qp-TUz"/>
                             <constraint firstItem="V2J-n8-jBU" firstAttribute="top" secondItem="b7F-r3-P1K" secondAttribute="bottom" constant="6" id="lGL-bt-bg4"/>
