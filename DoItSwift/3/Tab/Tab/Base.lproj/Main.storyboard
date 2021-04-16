@@ -67,6 +67,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="uZ8-Ps-wHA"/>
                         <segue destination="JtI-9q-YGs" kind="relationship" relationship="viewControllers" id="vES-3h-UtN"/>
                         <segue destination="1HU-qB-8qe" kind="relationship" relationship="viewControllers" id="NH4-q0-EVx"/>
+                        <segue destination="epc-4R-Wn2" kind="relationship" relationship="viewControllers" id="Pcw-0h-oKJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPm-CY-PYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -164,6 +165,69 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6F-9W-Ajo" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="74" y="907"/>
+        </scene>
+        <!--Picker View Controller-->
+        <scene sceneID="mlK-KK-kBh">
+            <objects>
+                <viewController id="epc-4R-Wn2" customClass="PickerViewController" customModule="Tab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tI1-IU-NXc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ib8-r8-2va">
+                                <rect key="frame" x="0.0" y="74" width="414" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="laq-a7-cv2"/>
+                                    <constraint firstAttribute="height" constant="190" id="wRi-0h-Gal"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Item :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRR-6Z-DgA">
+                                <rect key="frame" x="16" y="283" width="114" height="149"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcx-ag-dGY">
+                                <rect key="frame" x="150" y="283" width="34" height="149"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="30D-Bg-FkB">
+                                <rect key="frame" x="16" y="452" width="382" height="341"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="7Ph-Fs-grJ"/>
+                                    <constraint firstAttribute="height" constant="341" id="86L-N9-cmk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EQU-32-uEL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="30D-Bg-FkB" firstAttribute="top" secondItem="Zcx-ag-dGY" secondAttribute="bottom" constant="20" id="8g6-jn-pf1"/>
+                            <constraint firstItem="30D-Bg-FkB" firstAttribute="top" secondItem="eRR-6Z-DgA" secondAttribute="bottom" constant="20" id="C7E-6V-Haf"/>
+                            <constraint firstItem="Ib8-r8-2va" firstAttribute="trailing" secondItem="EQU-32-uEL" secondAttribute="trailing" id="CYr-MP-GTF"/>
+                            <constraint firstItem="eRR-6Z-DgA" firstAttribute="leading" secondItem="EQU-32-uEL" secondAttribute="leading" constant="16" id="DeU-jH-1fy"/>
+                            <constraint firstItem="EQU-32-uEL" firstAttribute="bottom" secondItem="30D-Bg-FkB" secondAttribute="bottom" constant="20" id="Hrs-Di-fiP"/>
+                            <constraint firstItem="eRR-6Z-DgA" firstAttribute="top" secondItem="Ib8-r8-2va" secondAttribute="bottom" constant="19" id="K70-7C-3sr"/>
+                            <constraint firstItem="30D-Bg-FkB" firstAttribute="leading" secondItem="EQU-32-uEL" secondAttribute="leading" constant="16" id="Q8M-Ug-zib"/>
+                            <constraint firstItem="Ib8-r8-2va" firstAttribute="top" secondItem="EQU-32-uEL" secondAttribute="top" constant="30" id="eSJ-qG-gpK"/>
+                            <constraint firstItem="Zcx-ag-dGY" firstAttribute="leading" secondItem="eRR-6Z-DgA" secondAttribute="trailing" constant="20" id="iIF-fi-56c"/>
+                            <constraint firstItem="EQU-32-uEL" firstAttribute="trailing" secondItem="30D-Bg-FkB" secondAttribute="trailing" constant="16" id="kj5-RA-GUV"/>
+                            <constraint firstItem="Zcx-ag-dGY" firstAttribute="top" secondItem="Ib8-r8-2va" secondAttribute="bottom" constant="19" id="qjw-y0-aKs"/>
+                            <constraint firstItem="Ib8-r8-2va" firstAttribute="leading" secondItem="EQU-32-uEL" secondAttribute="leading" id="tor-jO-y4j"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="FU8-sP-T75"/>
+                    <connections>
+                        <outlet property="imageView" destination="30D-Bg-FkB" id="fAR-dQ-SyM"/>
+                        <outlet property="lblImageFileName" destination="Zcx-ag-dGY" id="XdC-hc-Dih"/>
+                        <outlet property="pickerImage" destination="Ib8-r8-2va" id="nrQ-fc-SOn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7qN-eJ-s9Y" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-946" y="127"/>
         </scene>
     </scenes>
     <resources>
